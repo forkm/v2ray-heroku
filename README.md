@@ -24,10 +24,20 @@
 
 ## 注意
 
-WebSocket 路径为 `/`。
-
-`alterId` 为 `64`。
-
 V2Ray 将在部署时自动安装最新版本。
+
+## 客户端配置
+
+address: [appname].herokuapp.com
+
+port: 443
+
+UUID: 会默认生成一个，可手动配置
+
+`alterId` 为 `64`
+
+传输协议：ws
+
+WebSocket 路径为 `/`
 
 **出于安全考量，除非使用 CDN，否则请不要使用自定义域名，而使用 Heroku 分配的二级域名，以实现 V2Ray Websocket + TLS。**
